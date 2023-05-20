@@ -1,0 +1,10 @@
+let userName = prompt("Adınızı giriniz")
+myName = document.querySelector("span#myName")
+myName.innerHTML = userName
+let myClock = document.querySelector("#myClock")
+const now = new Date()
+let day = now.getDay()
+let minutes = now.getMinutes()
+let hours = now.getHours()
+let secons = now.getSeconds()
+myClock.innerHTML = `Saat: ${hours}:${minutes}:${seconds}`
