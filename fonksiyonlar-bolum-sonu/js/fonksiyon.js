@@ -1,0 +1,1 @@
+// functions bölüm sonu egzersizi
